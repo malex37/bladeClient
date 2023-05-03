@@ -1,0 +1,29 @@
+{
+  "name": "bladeclient",
+  "version": "0.0.1",
+  "description": "Single client for IOT connections ",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malex37/bladeClient.git"
+  },
+  "author": "malex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malex37/bladeClient/issues"
+  },
+  "homepage": "https://github.com/malex37/bladeClient#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "aws-iot-device-sdk-v2": "^1.11.0"
+  }
+}
